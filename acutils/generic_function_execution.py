@@ -5,9 +5,8 @@ Author: Andrea Casati, andrea1.casati@gmail.com
 """
 
 
+# import sys  # moved to __init__.py 
 from importlib import import_module
-import sys
-sys.path.insert(0, 'C:/Users/caso8/Google Drive/Python Scripts/acpylibs/datatrader/')
 
 
 def exec_func(module_name, function_name, args=None, kwargs=None):
