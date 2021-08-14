@@ -17,5 +17,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['acutils'],
-    install_requires=[plotly],
+    install_requires=[],
 )
