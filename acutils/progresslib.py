@@ -1,7 +1,11 @@
 """
-Library including some utility functions
+acutils progresslib
+==================================
+Library including some utility functions.
+
 Created on feb 27th 2020
 Author: Andrea Casati, andrea1.casati@gmail.com
+
 """
 
 

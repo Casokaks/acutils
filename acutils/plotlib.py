@@ -1,16 +1,20 @@
 """
-Library to plot charts
+acutils plotlib
+==================================
+Library to plot charts.
+
 Created on Fri Oct 25 15:07:11 2019
 Author: Andrea Casati, andrea1.casati@gmail.com
+
 """
 
 
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+from sys import exit
 import pandas as pd
 import numpy as np
 from math import ceil
-from sys import exit
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 from .list_utils import get_shape
 
 

@@ -1,7 +1,11 @@
 """
-Library implementing some utility functions on normalization
+acutils normalize
+==================================
+Library implementing some utility functions on normalization.
+
 Created on Oct 18 2019
 Author: Andrea Casati, andrea1.casati@gmail.com
+
 """
 
 

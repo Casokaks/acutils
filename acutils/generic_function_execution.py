@@ -1,11 +1,15 @@
 """
-Library to import and execute functions
+acutils generic_function_execution
+==================================
+Library to import and execute functions.
+
 Created on Oct 27 2017
 Author: Andrea Casati, andrea1.casati@gmail.com
+
 """
 
 
-# import sys  # moved to __init__.py 
+import sys
 from importlib import import_module
 
 

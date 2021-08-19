@@ -1,7 +1,11 @@
 """
-Library implementing some utility functions for objects
+acutils object_utils
+==================================
+Library implementing some utility functions for objects.
+
 Created on May 212020
 Author: Andrea Casati, andrea1.casati@gmail.com
+
 """
 
 

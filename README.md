@@ -1,5 +1,11 @@
 # acutils
 
-Casokaks's python utility functions.
+Casokaks's python utility library.
 
-To install open a terminal and run the command: "pip install git+https://github.com/Casokaks/acutils.git"
+========================================================
+
+### To use:
+
+INSTALL: pip install git+https://github.com/Casokaks/light-python-template
+
+CLONE: git clone https://github.com/Casokaks/light-python-template.git

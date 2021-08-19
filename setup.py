@@ -1,14 +1,23 @@
-import setuptools
+"""
+acutils setup
+==================================
+Casokaks's python utility library.
+
+Author: Casokaks (https://github.com/Casokaks/)
+Created on: Aug 15th 2021
+
+"""
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+from setuptools import setup, find_packages
+setup(
     name='acutils',
-    version='0.1.1',
+    version='0.2.1',
     author='Casokaks',
     author_email='casokaks@gmail.com',
-    description='Collection on python utility functions',
+    description='Collection on python utility functions.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='https://github.com/Casokaks/acutils',
@@ -16,6 +25,13 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/Casokaks/acutils/issues"
     },
     license='MIT',
-    packages=['acutils'],
-    install_requires=['plotly',],
+    packages=find_packages(),
+    include_package_data=True,
+    install_requires=[
+        'pandas',
+        'numpy',
+        'scipy',
+        'matplotlib',
+        'plotly',
+    ],
 )

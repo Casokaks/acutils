@@ -1,7 +1,11 @@
 """
+acutils list_utils
+==================================
 Library implementing some utility functions
+
 Created on Nov 26 2018
 Author: Andrea Casati, andrea1.casati@gmail.com
+
 """
 
 

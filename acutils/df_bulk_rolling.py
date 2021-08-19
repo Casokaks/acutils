@@ -1,7 +1,11 @@
 """
+acutils df_bulk_rolling
+==================================
 Library implementing bulk rolling execution of a generic method over a dataframe
+
 Created on May 22 2020
 Author: Andrea Casati, andrea1.casati@gmail.com
+
 """
 
 
