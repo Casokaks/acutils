@@ -2,7 +2,13 @@
 
 Casokaks's python utility library.
 
-========================================================
+==========================================================
+
+### License: 
+
+NO PERMISSION TO USE, DISTRIBUTE, REPRODUCE, REPLICATE OR CREATE DERIVATIVE WORKS WITHOUT AUTHOR CONSENT.
+
+==========================================================
 
 ### To use:
 

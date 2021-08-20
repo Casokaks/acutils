@@ -24,7 +24,7 @@ setup(
     project_urls = {
         "Bug Tracker": "https://github.com/Casokaks/acutils/issues"
     },
-    license='MIT',
+    license='NO PERMISSION TO USE, DISTRIBUTE, REPRODUCE, REPLICATE OR CREATE DERIVATIVE WORKS WITHOUT AUTHOR CONSENT.',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
