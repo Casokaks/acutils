@@ -14,7 +14,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 from setuptools import setup, find_packages
 setup(
     name='acutils',
-    version='0.2.1',
+    version='0.2.2',
     author='Casokaks',
     author_email='casokaks@gmail.com',
     description='Collection on python utility functions.',
