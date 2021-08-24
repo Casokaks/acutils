@@ -26,9 +26,8 @@ class Logger(object):
         self.log = open(file, "a")
 
     def write(self, message):
-        nowstr = now_to_log()
-        self.terminal.write("{}{}".format(nowstr, message))
-        self.log.write("{}{}".format(nowstr, message))
+        self.terminal.write(message)
+        self.log.write("{}{}".format(now_to_log(), message))
 
     def flush(self):
         #this flush method is needed for python 3 compatibility.
