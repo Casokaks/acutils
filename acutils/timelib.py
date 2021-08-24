@@ -16,7 +16,7 @@ def now():
 
 def now_to_log():
     """Returns string with datetime now using format [%Y-%m-%d|%H:%M:%S]."""
-    return now().strftime("[%Y-%m-%d|%H:%M:%S]")
+    return now().strftime("[%Y-%m-%d|%H:%M:%S] ")
 
 def now_to_string():
     """Returns string with datetime now using format %Y/%m/%d %H:%M:%S."""
