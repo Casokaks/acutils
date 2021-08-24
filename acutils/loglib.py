@@ -9,6 +9,7 @@ Author: Andrea Casati, andrea1.casati@gmail.com
 """
 
 import sys
+import .timelib
 
 class Logger(object):
     """
@@ -25,8 +26,9 @@ class Logger(object):
         self.log = open(file, "a")
 
     def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)  
+        nowstr = timelib.now()
+        self.terminal.write("[{}] {}".format(nowstr, message))
+        self.log.write("[{}] {}".format(nowstr, message))
 
     def flush(self):
         #this flush method is needed for python 3 compatibility.
