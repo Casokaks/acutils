@@ -9,7 +9,6 @@ Author: Andrea Casati, andrea1.casati@gmail.com
 """
 
 import sys
-from .timelib import now_to_log
 
 class Logger(object):
     """
@@ -27,7 +26,7 @@ class Logger(object):
 
     def write(self, message):
         self.terminal.write(message)
-        self.log.write("{}{}".format(now_to_log(), message))
+        self.log.write(message)
 
     def flush(self):
         #this flush method is needed for python 3 compatibility.
