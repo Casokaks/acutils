@@ -22,11 +22,17 @@ class Logger(object):
     
     def __init__(self, file="logfile.log"):
         self.terminal = sys.stdout
+        self.file = file
         self.log = open(file, "a")
+        self.log.close()
 
     def write(self, message):
+        # write to terminal
         self.terminal.write(message)
+        # write to log file
+        self.log = open(self.file, "a")
         self.log.write(message)
+        self.log.close()
 
     def flush(self):
         #this flush method is needed for python 3 compatibility.
