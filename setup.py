@@ -5,6 +5,7 @@ Casokaks's python utility library.
 
 Author: Casokaks (https://github.com/Casokaks/)
 Created on: Aug 15th 2021
+Edited on: Jan 29th 2024
 
 """
 
@@ -14,7 +15,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 from setuptools import setup, find_packages
 setup(
     name='acutils',
-    version='0.2.3',
+    version='0.3.0',
     author='Casokaks',
     author_email='casokaks@gmail.com',
     description='Collection on python utility functions.',
